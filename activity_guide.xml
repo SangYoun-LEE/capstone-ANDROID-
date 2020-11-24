@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".guide"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/gpsback01"
+        android:gravity="center_horizontal"
+        android:text="GPS 권한 설정이 안될 경우\n수동으로 켜주시면 됩니다."
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:paddingTop="15dp"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/guideimage" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="225dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/gpsback02"
+        android:text="위에서부터 드래그를 하면,\n위와 같은 화면이 나오게 됩니다.\n그 후 빨강색 네모 쳐져있는 gps를\n 선택해주시면 됩니다.
+\n\n 궁금하신 사항이 있으실경우\n어플의 이용 문의를 통하여\n문의 하여주시기 바랍니다."
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:textSize="20sp"
+
+        />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
